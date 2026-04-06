@@ -39,9 +39,26 @@ int main(){
     char = character (Single letter)
     char [name of variable] = '[value]';
     When ptinting you do
-        char grade = 'A'
-        printf("Your grade is %c", grade)
+        char grade = 'A';
+        printf("Your grade is %c", grade);
     %c(%character) is representing grade in this print statement so you do ", grade" to tell it that is what you want there
+
+    How to do strings / multiple character
+    char [name of variable]'[]' = "[value]";
+    When printing you do 
+        char name[] = "Pastaza";
+        printf("Hello, %s", name);
+    %s(%string) is representing name in this print statement so you do ", name" to tell it that is what you want
+
+    bool = boolean / true or fales
+    to use bool you need to include this header
+    #include <stdbool.h>
+    bool [name of variable] = [true or false]
+    when printing you do
+        bool isOnline = false;
+        printf("Is pastaza online %b", isOnline);
+    This would print "Is pastaza online 0" it would print "0" because 0 = false and 1 = true when using a boolean
+    %b($boolean) is representing isOnline in this print statement sp you do ", isOnline" to tell it that is what you want
   */
   return 0;
 }
