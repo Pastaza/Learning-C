@@ -53,12 +53,18 @@ int main(){
     bool = boolean / true or fales
     to use bool you need to include this header
     #include <stdbool.h>
-    bool [name of variable] = [true or false]
+    bool [name of variable] = [true or false];
     when printing you do
         bool isOnline = false;
-        printf("Is pastaza online %b", isOnline);
+        printf("Is pastaza online %d", isOnline);
     This would print "Is pastaza online 0" it would print "0" because 0 = false and 1 = true when using a boolean
-    %b($boolean) is representing isOnline in this print statement sp you do ", isOnline" to tell it that is what you want
+    %d($boolean) is representing isOnline in this print statement sp you do ", isOnline" to tell it that is what you want
+  */
+
+  /*
+    Format specifiers
+    Format specifiers are special tokens that begin with a "%" symbol followed by a character that specifies the data type and optional modifiers (width, precision, flags)
+    they control how data is displayed or interpreted.
   */
   return 0;
 }
